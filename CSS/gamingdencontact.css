@@ -1,0 +1,56 @@
+body
+{
+
+	background-image: url("../img/gamingdenbg.jpg");
+	background-size: 100%;
+	margin:0;
+	font-family: lato;
+}
+h1,h2
+{
+	color:#ffffff;
+	text-shadow: 2px 1px #666666;
+	text-align: center;
+	margin: 0;
+	padding: 50px;
+}
+nav
+{
+	overflow-x:hidden;
+	height: 100%;
+	position: fixed;
+	width:150px;
+	background-color: #ff0000;
+	margin: 0%;
+}
+nav a
+{
+	text-decoration: none;
+	padding: 16px 8px 8px 18px;
+	font-size: 25px;
+	display:block;
+	color: #ffffff;
+}
+nav a:hover
+{
+	color: #ffffff;
+	background-color:#000000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+footer
+{
+	overflow-x:hidden;
+	height: 100%;
+	position: fixed;
+	width:150px;
+	background-color: #ff0000;
+	margin: 0%;
+    color:#ffffff;
+    left:0;
+    top:92%;
+    text-align: center;
+}
